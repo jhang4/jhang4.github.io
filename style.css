@@ -1,0 +1,31 @@
+/* Style the header */
+.header {
+    padding: 30px;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 213, 189);
+}
+body {
+    background-image: url('clouds.PNG');
+}
+/* Container for flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap
+}
+/* Create three equal columns that sits next to each other */
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    font-family: "Courier New";
+}
+.food {
+    /* background-color: rgb(253, 239, 231); */
+    padding: 30px;
+}
+h4 {
+    display: inline-block;
+}
