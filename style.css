@@ -6,7 +6,7 @@
     color: rgb(255, 213, 189);
 }
 body {
-    background-image: url('clouds.PNG');
+    background-image: url('images/clouds.PNG');
 }
 /* Container for flexboxes */
 .row {
